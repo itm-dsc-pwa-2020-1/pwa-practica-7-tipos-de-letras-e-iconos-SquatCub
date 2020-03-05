@@ -1,0 +1,67 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+header{
+  background: #404600;
+  margin: auto;
+  width: 90%;
+  padding: 30px;
+  display: grid;
+  grid-gap: 2;
+  text-align: center;
+  font-family: tangerine-bold;
+  color: #b0b0b0;
+  font-size: 25px;
+}
+
+.contenedor{
+  width: 95%;
+  margin: 5px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.contenedor .contenido{
+  margin-top: 90px;
+  grid-column: span 2;
+  text-align: center;
+}
+.contenedor .side{
+  margin-top: 50px;
+  font-family: roboto-bold;
+}
+.contenedor .side h3{
+  font-size: 30px;
+}
+.pie{
+  width: 80%;
+  margin: auto;
+  padding: 40px;
+  text-align: center;
+  background: #e65c05;
+  font-family: oxanium-medium;
+}
+@font-face {
+    font-family: tangerine-bold;
+    src: url('../Tangerine-Bold.ttf');
+}
+@font-face {
+    font-family: roboto-bold;
+    src: url('../Roboto-Bold.ttf');
+}
+@font-face {
+    font-family: oxanium-medium;
+    src: url('../Oxanium-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../iconfont/MaterialIcons-Regular.eot'); /* For IE6-8 */
+  src: local('Material Icons'),
+    local('MaterialIcons-Regular'),
+    url('../iconfont/MaterialIcons-Regular.woff2') format('woff2'),
+    url('../iconfont/MaterialIcons-Regular.woff') format('woff'),
+    url('../iconfont/MaterialIcons-Regular.ttf') format('truetype');
+}
